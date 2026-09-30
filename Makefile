@@ -18,7 +18,8 @@ FPCFLAGS = \
 	-Fu$(SRC)/protocol \
 	-Fu$(SRC)/database \
 	-Fu$(SRC)/common \
-	-Fo$(BUILD)/
+	-Fo$(BUILD)/ \
+	-FU$(BUILD)/
 
 .PHONY: all build run clean
 
@@ -33,4 +34,4 @@ run: build
 
 clean:
 	rm -rf $(BUILD)
-	rm -f $(BIN)/$(PROJECT)
+	rm -rf $(BIN)
