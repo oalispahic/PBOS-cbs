@@ -1,0 +1,10 @@
+[App]
+NAME=PBOS
+ENVIRONMENT=local
+
+[Database]
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_NAME=friendbank
+DB_USER=friendbank
+DB_PASSWORD=change-me
