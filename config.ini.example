@@ -1,6 +1,6 @@
 [App]
-NAME=PBOS
-ENVIRONMENT=local
+APP_NAME=PBOS
+APP_ENV=local
 
 [Database]
 DB_HOST=127.0.0.1

@@ -42,8 +42,8 @@ begin
   try
 
     // Map [App] Config
-    App.Name := Ini.ReadString('App', 'NAME', 'PBOS');
-    App.Env := Ini.ReadString('App', 'ENV', 'development');
+    App.Name := Ini.ReadString('App', 'APP_NAME', 'PBOS');
+    App.Env := Ini.ReadString('App', 'APP_ENV', 'development');
 
     // Map [Database] Config
     Database.Host     := Ini.ReadString('Database', 'DB_HOST', '127.0.0.1');
