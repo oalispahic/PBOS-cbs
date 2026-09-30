@@ -9,7 +9,7 @@
 
 # IDE / editor files
 .idea/
-.vscode/
+.vscode/*.local.json
 *.swp
 *.swo
 
@@ -18,6 +18,8 @@
 Thumbs.db
 
 # Local environment / secrets
+config.ini
+!config.ini.example
 .env
 .env.*
 !.env.example
@@ -33,3 +35,8 @@ Thumbs.db
 
 # Temporary files
 /tmp/
+*.fmt.txt
+
+# Editor
+.vscode
+.editorconfig
